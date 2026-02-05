@@ -10,6 +10,7 @@
 8. Verify the current URL equals https://dev.rentzila.com.ua/.
 
 ## 2.cursor-prompt:
+Create the new 'rentzila-header-catalog-menu.spec' test spec using playwright MCP with following steps:
 1. Visit the home page  
    **URL:** `https://dev.rentzila.com.ua/`
 2. Verify that the **Catalog** item is displayed in the website header.
@@ -31,3 +32,14 @@ Act as a Senior QA Automation Engineer. Based on the rules defined in ai-instruc
    - **Будівельні**
    - **Інші**
 6. Verify that each subsection tab is visible and clickable.
+
+## 4.claude
+Act as a Senior QA Automation Engineer. Based on the rules defined in ai-instructions-claude.md create the new 'rentzila-header-login-modal' test spec using playwright MCP with following steps:
+1. Visit the home page  
+   **URL:** https://dev.rentzila.com.ua/
+2. Verify that the **"Вхід"** button is displayed in the website header.
+3. Click on the **"Вхід"** button.
+4. Verify that the login modal window is displayed.
+5. Verify that the login modal contains a login form.
+6. Verify that the modal window is displayed above the page content  
+   *(overlay is present and background is not interactive)*.
